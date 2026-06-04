@@ -10,7 +10,7 @@
 
 <body>
     <video autoplay muted loop playsinline class="background">
-        <source src="videoplayback.mp4" type="video/mp4">
+        <source src="pictures/videoplayback.mp4" type="video/mp4">
     </video>
     <header>
         <h1>Night Sky over London</h1>
@@ -28,7 +28,7 @@
             Note: The position of sky objects changes depending on the date, time, season, weather and light
             pollution, so this website shows simplified directions for educational purposes.
         </div>
-        <svg width="1000" height="500" viewBox="0 0 800 400" style="border: 1px solid #26335f;">
+        <svg class="skymap-svg" viewBox="0 0 800 400" style="border: 1px solid #26335f;">
 
             background color
 
@@ -78,20 +78,19 @@
 
             <line x1="120" y1="230" x2="650" y2="130" stroke="#7ec8e3" stroke-width="2" />
 
-            <image href="smalliss.png" x="415" y="155" width="30" height="30" />
+            <image href="pictures/smalliss.png" x="415" y="155" width="30" height="30" />
             <text x="460" y="180" fill="white">ISS</text>
 
         </svg>
         <div>
-             <h2>If you want to track the ISS in real time, click here</h2>
-            <button class="button" style="text-decoration: none;"><a style="text-decoration: none; color: #26335f;"
-                    href="https://isstracker.pl/en" target="_blank">ISS</a></button>
+            <h2>If you want to track the ISS in real time, click here</h2>
+            <a class="button" style="color: #26335f; text-decoration: none;" href="https://isstracker.pl/en"
+                target="_blank">ISS</a>
         </div>
         <div>
             <h2>If you want to explore the night sky in real time, click here</h2>
-           <button class="button"><a style="text-decoration: none; color: #26335f;"
-                    href="https://theskylive.com/planetarium" target="_blank">Explore
-                    the Night Sky</a></button>
+            <a class="button" style="color: #26335f; text-decoration: none;" href="https://theskylive.com/planetarium"
+                target="_blank">Explore the Night Sky</a>
         </div>
     </main>
 
