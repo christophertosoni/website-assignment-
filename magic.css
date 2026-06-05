@@ -120,7 +120,16 @@ footer {
     border-top: 2px solid #26335f;
 }
 
+}
 
+
+/* hover  on the boxes in objects page  */
+.infobox:hover img {
+    transform: scale(2);
+    z-index: -1;
+    transition: transform 0.3s;
+
+}
 /* hover  on the boxes in objects page  */
 .infobox:hover {
     transform: scale(1.2);
