@@ -26,13 +26,12 @@ z-index: -1    background video behind */
 
 /* tittle */
 header {
-    background-color: #0b1026;
     text-align: center;
     padding: 25px 10px;
-    border-bottom: 2px solid #26335f;
 }
 
 header h1 {
+    font-family: monospace;
     margin: 0;
     font-size: 36px;
     color: #ffffff;
@@ -120,8 +119,6 @@ footer {
     border-top: 2px solid #26335f;
 }
 
-}
-
 
 /* hover  on the boxes in objects page  */
 .infobox:hover img {
@@ -130,10 +127,14 @@ footer {
     transition: transform 0.3s;
 
 }
-/* hover  on the boxes in objects page  */
+
+/* this makes all boxes the same height - important */
 .infobox:hover {
     transform: scale(1.2);
     border: 1px solid #ffd369;
+    transition: transform 0.5;
+
+
 }
 
 /* the main boxes on the page, especially objects page !!!!!!!!!!!!!!!!!!important:height: 420px; makes all object cards the same height. */
@@ -276,12 +277,12 @@ input[type="reset"]:hover {
     background-color: white;
 }
 
-.skymap-svg {
+.skymapsvg {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: auto;
 }
 
 /* responive website magic job  */
