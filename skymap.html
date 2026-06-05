@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Sky over London</title>
+    <link rel="stylesheet" href="magic.css">
+</head>
+
+<body>
+    <video autoplay muted loop playsinline class="background">
+        <source src="pictures/videoplayback.mp4" type="video/mp4">
+    </video>
+    <header>
+        <h1>Night Sky over London</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="skymap.html">Sky Map</a>
+            <a href="objects.html">Objects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="homepage">
+        <div class="boxobj">
+            <h2>In this section you can find i simplyfied skymap of objects visible in the night sky above
+                London (GREATER LONDON).</h2>
+            Note: The position of sky objects changes depending on the date, time, season, weather and light
+            pollution, so this website shows simplified directions for educational purposes.
+        </div>
+        <svg class="skymapsvg" viewBox="0 0 1000 400" style="border: 1px solid #26335f;">
+
+            background color
+
+            <rect width="1000" height="500" fill="radial-gradient(circle, #050816 0%, #26335f 100%)" />
+
+            bottomlne
+
+            <line x1="100" y1="330" x2="750" y2="330" stroke="#ffd369" stroke-width="2" />
+
+            text
+
+            <text x="60" y="360" fill="white">West</text>
+            <text x="380" y="360" fill="white">South</text>
+            <text x="700" y="360" fill="white">East</text>
+
+            planets
+
+            moon
+            <circle cx="620" cy="100" r="22" fill="#d9d9d9" />
+            <text x="596" y="70" fill="white">Moon</text>
+
+            venus
+            <circle cx="160" cy="260" r="7" fill="#fff2a8" />
+            <text x="135" y="285" fill="white">Venus</text>
+
+            jupiter
+            <circle cx="360" cy="170" r="12" fill="#d6a86c" />
+            <text x="330" y="200" fill="white">Jupiter</text>
+
+            mars
+            <circle cx="500" cy="250" r="8" fill="#c1442e" />
+            <text x="480" y="275" fill="white">Mars</text>
+
+            mercury
+            <circle cx="90" cy="300" r="5" fill="#b5b5b5" />
+            <text x="45" y="320" fill="white">Mercury</text>
+
+            saturn
+            <circle cx="260" cy="285" r="8" fill="#c9b37e" />
+            <text x="235" y="310" fill="white">Saturn</text>
+
+            sirius
+            <circle cx="670" cy="260" r="6" fill="white" />
+            <text x="645" y="285" fill="white">Sirius</text>
+
+            iss
+
+            <line x1="120" y1="230" x2="650" y2="130" stroke="#7ec8e3" stroke-width="2" />
+
+            <image href="pictures/smalliss.png" x="415" y="155" width="30" height="30" />
+            <text x="460" y="180" fill="white">ISS</text>
+
+        </svg>
+        <div>
+            <h2>If you want to track the ISS in real time, click here</h2>
+            <a class="button" style="color: #26335f; text-decoration: none;" href="https://isstracker.pl/en"
+                target="_blank">ISS</a>
+        </div>
+        <div>
+            <h2>If you want to explore the night sky in real time, click here</h2>
+            <a class="button" style="color: #26335f; text-decoration: none;" href="https://theskylive.com/planetarium"
+                target="_blank">Explore the Night Sky</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Krzysztof Tosoni</p>
+    </footer>
+
+</body>
+
+</html>
